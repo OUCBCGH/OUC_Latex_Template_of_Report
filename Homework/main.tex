@@ -1,0 +1,131 @@
+% !TEX program = xelatex
+% !TEX options = -synctex=1 -interaction=nonstopmode -file-line-error "%DOC%"
+% Assignment Template
+\documentclass[UTF8,12pt,a4paper]{article}
+\usepackage[scheme=plain]{ctex}
+
+\usepackage[vmargin=1in,hmargin=.5in]{geometry}
+\usepackage{graphicx,subcaption,lipsum}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{calc}
+\usepackage{amsthm}
+\setlength{\parindent}{0pt}
+
+
+\newcommand{\University}{Ocean University of China}
+\newcommand{\School}{School of Math and Science}
+\newcommand{\CourseName}{Advanced speaking}
+\newcommand{\Semester}{Fall Semester,2024}
+\newcommand{\ProjectName}{Homework Week 8}
+\newcommand{\DueTimeType}{Completion Time}
+\newcommand{\DueTime}{\today}
+\newcommand{\StudentName}{NiMing 匿名}
+\newcommand{\StudentID}{22160006666}
+
+
+\newtheorem{definition}{Definition}
+\newcommand*{\dif}{\mathop{}\!\mathrm{d}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\CourseName}
+\fancyhead[C]{\ProjectName}
+\fancyhead[R]{\StudentName}
+\fancyfoot[R]{\thepage\ / \pageref{LastPage}}
+\setlength\headheight{12pt}
+\fancypagestyle{FirstPageStyle}{
+    \fancyhf{}
+    \fancyhead[L]{
+        \University\\
+        \School\\
+        \CourseName\\
+        \Semester}
+    \fancyhead[C]{{\Huge\bfseries\ProjectName}\\
+        \DueTimeType\ : \DueTime}
+    \fancyhead[R]{Name : \makebox[\widthof{\StudentID}][s]{\StudentName}\\
+        Student ID\@ : \StudentID\\
+        }
+    \fancyfoot[R]{\thepage\ / \pageref{LastPage}}
+    \setlength\headheight{36pt}
+}
+\usepackage{amsmath,amssymb,amsthm,bm}
+\allowdisplaybreaks[4]
+\newtheoremstyle{Problem}
+{}
+{}
+{}
+{}
+{\bfseries}
+{.}
+{ }
+{\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)} Score: \underline{\qquad\qquad}}
+\theoremstyle{Problem}
+\newtheorem{prob}{Problem}
+\newtheoremstyle{Solution}
+{}
+{}
+{}
+{}
+{\bfseries}
+{:}
+{ }
+{\thmname{#1}}
+\makeatletter
+\def\@endtheorem{\qed\endtrivlist\@endpefalse}
+\makeatother
+\theoremstyle{Solution}
+\newtheorem*{sol}{Solution}
+\usepackage{graphicx}
+\usepackage{url}
+
+%--------------------------------------------------------------
+\begin{document}
+\thispagestyle{FirstPageStyle}
+\begin{center}
+    {\LARGE \textbf{My opinion after watch TED speech about SOCIAL MEDIA}} \\[0.5cm] % 标题字体大小为Large并加粗
+\end{center}
+\begin{center}
+    {\LARGE \textbf{Index: 24}} \\[0.5cm] % 标题字体大小为Large并加粗
+\end{center}
+\section*{section}
+text.
+\section*{Appendix}
+\begin{appendix}
+    \section{The content in the TED speech}
+    I'm fat. Why I am fat? She is only 19 years old, why I am doing with my life(that moment the video show a graph about young woman don't like marriage). Hi, she looks nice. By this photo, does she really need more likes?(that moment the speaker give a photo about wedding shopping )But like this photo, she really need more likes? Hi I really want to be invited to the wedding. What one more like?nice.Welcome to the internal monologue of a typical social media scroll，(欢迎来到典型社交篇之内心独白)，a monologue that so many of us have everyday. But we don't talk about it. In fact many of us can't recognize what is happening. I'm Bailey Parnell, and I'm going to talk to you about the unintended consequences(以外的结果) (that ) social media is having on yout mental health. I'm going to show what stressing you out every day, what it's doing to you and how you can craft a better experience for yourself online. 
+
+    Just over a year ago, my sister and I took a 4 day vocation to XXXX. This is the first no work vacation, and this vacation a going dark. I was turning in airplane mode, no emali and no  social media. 
+    
+    On the first day I was there, I was still experience phantom vibration syndrome.(幻振综合征，I don't know what's it means.)That's where you think your phone went off and you check and it didn't. I was checking incessantly（不断地）. I was distracted(分心的) in conversation. I was seeing these gorgeous sites jasper had to offer. And my first reaction was to take out my phone and post it on social. But it wasn't here. The second day was a little bit easier. You might be thinking I'm ridiculous, but I hadn't been completely disconnect in over 4 years. This was practically a new experience again. It until the 4th day there that I was comfortable without my phone. I was sitting with my sister literally on the side of this mountain. When I start thinking about myself, what had social media doing to me? What is doing to my peers that was only 4 days? It was anxiety inducing. It was stressful, and it resulted in withdrawals. That's when I start to ask questions and have since started my master's research into this subject. You see, I've worked in social marketing primarily in higher education for most of my career. That means I work with a lot of 18 to 24 years old, which also happens to be the most active demographic on social media.
+    
+    The another thing you need to know was that I was young enough to have grown up with social media. We're just old enough to critically encage with it in a way that 12 year old me probably couldn't. So my life is  social media personally, prefessionally and academically. And if it was doing this to me, what was it doing to everyone else? Well, I immediately found out what I wasn't alone. The center for collegiate mental health found that the top three diagnoses on university campuses are anxiety depression and stress. And numerous studies from the US, Canada,  UK, has linked these high social media use with these high levels of anxiety and depression.And the scary thing is that high social media uses almost everyone I know.It's my friends,my family,my colleagues. 90 percent of 18 to 29 year olds are on social media. We spent average 2 hour a day on social media, we even don't eating 2 hours a day. 70 persent of the canadian population is on social media. Our voter turnout isn't enven 70 persent. Anything we do this often is worthy or critical observation. Anything we spend this much time doing has lasting effects to us. 
+    
+    So, let's me introduce you to four of the most common stressor on social media that if go unchecked, have potential full blown mental health issues.(I dislike the way of this speaker, she want to control me, it meak me feel unhappy.)And it by no means an exhaustive list. Number one, the highlight reel. Just like in sport, the highlight reel is a collection of the best and brightest moment. Social media is our personal highlight reel. It's where we put up we wins or when we look great or when we're out with friends and family. But we struggle with insecurity because we compare our behind-the-scenes with everyone else highlight reel. We are constantly compare ourself to others, and yes, there is what happening before social media with tv and celebration .But now it happening all the time and directly linked to you. Here is a perfect example I came across in preparation this talk, is my friend in vacation, brb nap. Wait, why can't I afford a vacation? Why am I just sitting here in my pad is watching NEFNIX?I want to be on a beach. But here is the thing. I know her very well, I knew this was out of the ordinary for her. I knew she was typically drowning in schoolwork, but we think who wants to be see that highlights are what people want to see. In fact, when your highlight do well, you encounter the second stressor on social media. 
+    
+    This is number two,social currency. Just like the dollor, a currency is literally something we use to attribute value to a good service. In social media, these likes the comments, the shares. The comment in social media is currency by which attribute value to something. In marketing, we call it the "Economy of Attention". Everything is competing for your attention. And when you give something a like or a piece of that finite attention, it becomes a recorded transaction attribute value, which is great if you're selling albums or clothing. The problem is that in our social media we are all the product, and we all want other attribute value to us.  You know someone or are someone taking down a photo because it didn't get as many likes as you thought it would. And I'll admit I've been right there with you. We took our product off the shelf because it wasn't selling fast enough. This is changing our sense of identity. We are tying up ourself worth with what others think about us, and then we're quantifying it for everyone to see. We're obsessed(痴迷). We have to get that selfie just right, and we will take 300 photos to make sure. And then we'll wait for the perfect time to post. 
+    
+    We're so obsessed. We have biological responses when we can't participate, which leads me to the third stress on social media. Number three, F.O.M.O.(Fear of Missing Out), it is a light phrase.   But F.O.M.O. or fearing of missing out is actual a social anxiety of you are disconnection with the event, action and the opportunity. A collection  of Canada University found that seven out of ten students said they would get rid of their social networking accounts if it were not for fear of being left out of the loop out of curiosity.  How many people here have or have considered deactivating, your social? That almost everyone. That F.O.M.O. you feel the highlight reels, the social currency. Those are all results of a relatively quote unquote, normal social media experience. 
+    
+    But what if going on social media everyday was a terrifying experience where you not just questioned your self worth, but you questioned your safety. Perhep the worst stressor on social media is Number 4: harassment. 40% of online adults have experienced online harassment. 73% have witnessed online harassment. The unfortunate reality is that it is much more likely if you are a woman, LGBTQ, a person with color……I think you get the point. The problem is that in the news, we are seeing these big stories. We are seeing the 18 year old Tyler Clementi who took his life after his roommate, secretly filmed him, kissing another guy and out at him on twitter. We see women like Anita Sarkeesian being close shamed off the internet and sent death and rape threats for sharing their feminism. We see these stories once it too late, but what about the everyday online harassment? What about the ugly snap chat? You sent your friend with intention of it being private. And now it's up on Facebook. It's just a photo, it's funny. It's just one mean comment. It's not a big deal, but when those micro moments happen over and over again over time, that's when we have a macro problem. We have to recognize these everyday instance as well. Because if they go uncheck and the effects unnoticed, we are going to have many more tear committees. The effects aren't always easy to recognize, how many of you have noticed the notifications at the top of my slides? Yeah. How many you are like me and bothered that they are not checked? Yeah. Here let me check them for you. Just one small example of what this can do to you. Maybe you simply cannot focus because your notifications are going off the handle, and you need to check that need eventually becomes addiction. Regarding social media, we are already experience impairments similar to substance dependencies. With every like you get a shot of that, feel good chemical dopamine, you gain more that currency. 
+    
+    So what do we do to feel? Good? We check like just one more time we post, just one more time, we are anxious if we don't have access, does not sound like every drug you have every heard of when that grows, when your social media use goes unconfronted over time, that is when we see the rising levels of anxiety and depression. The F.O.M.O. is distraction, the highlight reels of comparisons. It's a lot and it's all the time. The Canada association of mental health found that as young as grade 7 to 12 students who spent 2 hours a day on social media, reported higher level of anxiety, depression, and suicidal thought. For those of you doing the math that's as young as 12 years old. 
+    
+    Now, here is the thing. I like the social media, I do, I love it. And hearing what I said today might make you think I want to get off it, but I don't. You see, I don't think it going anywhere. So I'm not going to waste my time telling you to spend less time on social media. Frankly, I don't think abstinence is an option anymore, but that doesn't mean you can't practice safe social. You see, everything I've talked about today has nothing and everything to do with social media. I mean social media is neither good nor bad. It's just the most recent tool we're using to do what we're always done. Tell stories and communicate with each other. You wouldn't blame same thing on television for a bad tv show. Twitter doesn't make people write hateful post.
+    
+    When we talk about this dark side of social media, what we're really talking about is the dark side of people that dark side that make her as harass that insecurity that makes you take down a photo you were excited to share that dark side looks at a picture of a happy family and wonders why yours doesn't look like that. 
+    
+    So as parents, as students, as friends, as bosses, the dark side is what we need to focus on. We need preventative strategies and coping strategies. So that when you have low days, because you will, when you're questioning yourself worth. Here is the good news. The good news is that recognizing a problem is the first step to fixing it. So hearing this talk is just that step one recognize the problem. Do you know the power of suggestion when someone tells you about something? And then you start seeing it everywhere. That's why awareness is critical. Because now you will at least be better able to recognize these effects if and when they happen to you. 
+    
+    The second thing you need to do is audit your social media diet. The same way we monitor what goes into our mouth, monitor what goes into your head and heart, ask yourself, did that Facebook scroll make me fell better or worse off? How many times do I actually check likes? Why am I responding this way to that photo? And then ask yourself if you're happy with that result? And you might be, and that's okey. But if you're not move on to step three, create a better online experience. After my partner did his audit, he realized his self worth was too tied up in social media. But particularly, celebrities reminding him of the things he didn't have. So he followed al brands and all celebrities, and that worked for him, but it might not be celebrities for you. For me, I had to purge other people off my timeline. 
+    
+    So let me tell you a secret. You do not have to follow your friends. The truth is that sometimes our friends or the people we have on Facebook as a courtesy, they just suck online. You find yourself in the middle of this passive, aggressive status war. You didn't even know what happening or you're looking at 50 photos of the same concert from the same angle.  If you want to follow artists or comedians or cats, you can do that. The last thing you're going to do is model good behavior. Offline, we are taught not to bully other kids in the playground. We're taught to respect others and treat them how they deserve to be treated or taught, not to kick others when they're down or take pleasure in their down falls. Social media is a tool. It's a tool that can be used for good for more positive groups, for revolutions, for putting grumpy cat in Disney movies. Tell you the internet is a weird place. So is social media hurting your mental health? The answer is it does not have to social can tear you down, yes. Or it can lift you up where you leave feeling better off or have an actual laugh out loud. 
+    
+    Finally i have only 24 hours in a day, if I'm spent two of those hours in social media , then I prefer my experience to be full of inspiration, laughs, motivation and whole lot of grumpy cat in Disney movies. 
+    
+    Thank you.
+\end{appendix}
+
+% \bibliographystyle{unsrt}   % unsrt 为文献的格式类型
+% \bibliography{reference}  %myref 为我们的.bib文件名
+
+\end{document}
